@@ -1,0 +1,16 @@
+.spinner {
+  background-color: #111219;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+  transition: 1s ease;
+}
+
+.spinner.hide {
+  opacity: 0;
+  transition: 1s ease;
+}
+
+/*# sourceMappingURL=Spinner.module.css.map */

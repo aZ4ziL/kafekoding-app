@@ -1,0 +1,56 @@
+.sidebar {
+  width: 342.42px;
+  min-height: 100vh;
+  background-color: #111219;
+  padding: 20px;
+  transition: 1s ease;
+}
+.sidebar .sidebarHeader a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.sidebar .sidebarHeader a h4 {
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.sidebar .sidebarBody {
+  padding-top: 2rem;
+}
+.sidebar .sidebarBody .listItems {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .sidebarBody .listItems .title {
+  font-weight: bold;
+  font-size: 8pt;
+  letter-spacing: 2px;
+  margin: 10px 0 0 0;
+}
+.sidebar .sidebarBody .listItems .link {
+  padding: 16px;
+  text-decoration: none;
+  isolation: isolate;
+  text-transform: uppercase;
+  color: white;
+}
+.sidebar .sidebarBody .listItems .link .icon {
+  margin-right: 1rem;
+}
+
+.sidebar .link:hover {
+  background: linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%);
+}
+
+.mainContent {
+  width: 100%;
+  color: white !important;
+}
+
+.sidebar.hide {
+  margin-left: -342.42px;
+  transition: 1s ease;
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */

@@ -1,0 +1,33 @@
+.borderLeftPrimary {
+  border-left: 5px solid rgb(13, 110, 253);
+}
+
+.borderLeftSecondary {
+  border-left: 5px solid rgb(108, 117, 125);
+}
+
+.borderLeftSuccess {
+  border-left: 5px solid rgb(25, 135, 84);
+}
+
+.borderLeftInfo {
+  border-left: 5px solid rgb(13, 202, 240);
+}
+
+.borderLeftWarning {
+  border-left: 5px solid rgb(255, 193, 7);
+}
+
+.borderLeftDanger {
+  border-left: 5px solid rgb(220, 53, 69);
+}
+
+.borderLeftLight {
+  border-left: 5px solid rgb(248, 249, 250);
+}
+
+.borderLeftDark {
+  border-left: 5px solid rgb(33, 37, 41);
+}
+
+/*# sourceMappingURL=Border.module.css.map */

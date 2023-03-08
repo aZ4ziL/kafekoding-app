@@ -1,0 +1,50 @@
+.header img {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header_box {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 0;
+  border-radius: 1rem;
+}
+.header .header_box h1 {
+  font-weight: bold;
+  font-size: 40pt;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.header .header_box p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (max-width: 660px) {
+  .header_box h1 {
+    font-size: 35pt !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header_box h1 {
+    font-size: 30pt !important;
+  }
+}
+@media screen and (max-width: 365px) {
+  .header_box h1 {
+    font-size: 20pt !important;
+  }
+  .header_box p {
+    font-size: 8pt;
+  }
+}
+
+/*# sourceMappingURL=Header.module.css.map */

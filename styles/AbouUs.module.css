@@ -1,0 +1,33 @@
+.aboutUsContainer {
+  position: relative;
+}
+.aboutUsContainer img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.aboutUsContainer .aboutUsOverlay {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.aboutUsContainer .aboutUsOverlay .aboutUsChild {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.aboutUsContainer:hover .aboutUsOverlay {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=AbouUs.module.css.map */
