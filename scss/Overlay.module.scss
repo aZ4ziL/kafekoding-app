@@ -1,0 +1,42 @@
+.overlayHeader {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  .overlayItem {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+    opacity: 0;
+    transition: .3s ease;
+
+    .overlayChild {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.overlayHeader:hover .overlayItem {
+  opacity: 1;
+}
+
+.overlayHeader:hover img {
+  opacity: 0;
+}
