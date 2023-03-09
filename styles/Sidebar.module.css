@@ -38,6 +38,10 @@
 .sidebar .sidebarBody .listItems .link .icon {
   margin-right: 1rem;
 }
+.sidebar .sidebarFooter {
+  padding-top: 2rem;
+  text-align: center;
+}
 
 .sidebar .link:hover {
   background: linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%);

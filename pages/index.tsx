@@ -51,6 +51,14 @@ async function getCourses() {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
+  // if (typeof context.req.headers.authorization === "undefined") {
+  //   return {
+  //     redirect: {
+  //       destination: "/login",
+  //       permanent: false,
+  //     },
+  //   };
+  // }
   const courses = await getCourses();
   return {
     props: {
